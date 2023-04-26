@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+h1 {
+    font-family: 'Architects Daughter';
+    font-size: 3em;
+
+}
+
+h2 {
+    font-family: 'Domine';
+    font-size: 2em;
+}

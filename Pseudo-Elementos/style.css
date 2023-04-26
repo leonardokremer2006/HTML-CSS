@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+a:visited {
+    color: #0000ff;
+}
+
+a:hover {
+    color:#ff0000;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ffff00;
+}
+
+
+/* 
+a::before {
+    content: ' ==> ';
+    text-decoration: none;
+    font-weight: normal;
+}
+a::after {
+    content: ' <== ';
+    text-decoration: none;
+    font-weight: normal;
+    
+}
+
+*/
+.especial {
+    background: rgb(182, 83, 17);
+}
+.especial::after {
+    content: '<--';
+    font-weight: normal;
+
+}
+
+.especial::before {
+    content: '-->';
+    font-weight: normal;
+}

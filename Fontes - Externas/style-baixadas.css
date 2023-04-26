@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'fontenova';
+    src: url('Holly\ Jolly.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+h1 {
+    font-family: 'fontenova';
+    font-weight: normal;
+
+}

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin:0px;
+
+}
+
+header {
+    
+    background: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+h1 {
+    box-shadow: inset -6px -2px 11px 4px black;
+
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+article {
+    background-color: lightgray;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+#second {
+    margin: 6px 0;
+   
+}
+
+
+    
+    
+
+#second > aside {
+    background: rgb(151, 148, 148);
+    
+}
+#first > aside {
+    background-color: rgb(151, 148, 148);
+    
+}
+
+nav {
+    background-color: rgb(99, 99, 99);
+    padding: 3px;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+
+}
+
+nav > a:hover {
+    text-decoration: underline;
+
+}
